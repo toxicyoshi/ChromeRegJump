@@ -24,7 +24,7 @@ try {
 
     if ($obj.Status -eq "validate") {
         if (-not (Test-Path $regJump)) {
-            return Respond @{message="regjump";regJumpPath=[System.IO.Path]::GetDirectoryName($regJump)}
+            return Respond @{message="regjump";regJumpPath=[System.IO.Path]::GetDirectoryName(externalfile:dmboannefpncccogfdikhmhpmdnddgoe%3A~%252FMyFiles%252FDownloads%252FRegJump%20(1)%252Ezip%3Af3ac097b058105afd97bfbbbd801f7d2d9ba22ab/Eula.txt)}
         }
 
         return Respond @{message="ok"}
